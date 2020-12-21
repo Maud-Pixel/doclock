@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("assets/fonts/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Robot Mono Bold";
+  src: url("assets/fonts/Roboto_Mono/static/RobotoMono-Bold.ttf");
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex, body .numbers .numbers-level4, body .numbers .numbers-level3, body .numbers .numbers-level2, body .numbers .numbers-level1, body .phone .circle, body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone_base, body .container_phone {
+  width: 30rem;
+  height: 60rem;
+  border: 0.5rem solid #f8f9fa;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.line, body .phone-white .border-end, body .numbers .border-end {
+  display: block;
+  width: 8rem;
+  height: 0.3rem;
+  background-color: #05477f;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1 solid #05477f;
+  border-radius: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0666b2;
+  font-size: 20px;
+  font-family: "Roboto Mono";
+  color: #3f464f;
+}
+body .container {
+  margin-top: 10rem;
+  height: 60rem;
+  overflow: hidden;
+}
+body .container_phone {
+  position: relative;
+}
+body .phone {
+  background: #48a6fe;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  border: 0.5rem solid #f8f9fa;
+  border-radius: 30px;
+  height: 100%;
+}
+body .phone .circle {
+  margin-top: 20rem;
+  margin-bottom: 3rem;
+}
+body .phone .circle .fa-circle {
+  margin-left: 1.5rem;
+  font-size: 10px;
+  color: #f8f9fa;
+  opacity: 50%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+body .numbers .numbers-level4 .fa {
+  margin-top: 35px;
+  color: #f8f9fa;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+body .numbers .numbers-level4 .fa:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 50%;
+}
+body .numbers .numbers-level4 .fa-times {
+  margin-left: 30px;
+}
+body .numbers .numbers-level4 .fa-arrow-left {
+  margin-top: 35px;
+  margin-right: 30px;
+}
+body .numbers .number {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  -webkit-box-shadow: 5px 5px 7px #3984CB;
+          box-shadow: 5px 5px 7px #3984CB;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+body .numbers .number p {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body .numbers .number button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 1.8rem;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-family: "Roboto Mono";
+}
+body .numbers .number:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-box-shadow: 0px 0px 15px #3984CB;
+          box-shadow: 0px 0px 15px #3984CB;
+  background-color: #3984CB;
+  opacity: 80%;
+  border: 1px solid #3984CB;
+}
+body .numbers .number:hover button {
+  color: #f8f9fa;
+}
+body .numbers .border-end {
+  margin-top: 5rem;
+}
+body .phone-white {
+  background-color: #f8f9fa;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  border: 0.5rem solid #f8f9fa;
+  border-radius: 30px;
+}
+body .phone-white .mark {
+  text-align: center;
+  font-size: 5rem;
+}
+body .phone-white span {
+  font-family: "Robot Mono Bold";
+  font-weight: 1000;
+}
+body .phone-white img {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+body .phone-white .unclock button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25rem;
+  opacity: 20%;
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 20px;
+}
+body .phone-white .border-end {
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
